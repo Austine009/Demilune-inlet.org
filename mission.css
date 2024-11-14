@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+.mission{
+    /* color: white; */
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 58, 196);
+    margin: 0 0 0 40px;
+    padding: 30px;
+}
+.mission-content{
+    line-height: 1.7rem;
+    margin: 0 0 0 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.donate{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.donate-text{
+    text-align: center;
+    padding-bottom: 20px;
+}
+h3{
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: space-around;
+}
+@media(max-width:550px){
+    .mission{
+        width: 100%;
+        font-size: 17px;
+    }
+    .mission-content{
+        width: 90%;
+        font-size: 15px;
+    }
+}
